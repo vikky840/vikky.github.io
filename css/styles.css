@@ -1,0 +1,159 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*----- Heading--------- */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navbar */
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* button */
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* color-section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* title image */
+.title-images {
+  width: 60%;
+  margin-left: 100px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* font-color */
+.font-colour {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.font-colour:hover {
+  color: #ff4c68;
+}
+
+.features-row {
+  margin: auto 0;
+  padding: 4.3%;
+}
+
+/* features */
+#features {
+  position: relative;
+}
+
+.features-title {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* logo */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* price */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Test-price */
+.test-price-item {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1032px) {
+  h1{
+    text-align: center;
+  }
+  #title {
+    text-align: center;
+  }
+  .title-images {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* footer */
+.footer-icon {
+  margin: 20px 10px;
+}
